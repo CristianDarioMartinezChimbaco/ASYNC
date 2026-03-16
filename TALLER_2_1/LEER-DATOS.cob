@@ -4,13 +4,10 @@
        ENVIRONMENT DIVISION. 
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-      *SELECT DATOS ASSIGN TO DATASET.
-       SELECT DATOS ASSIGN TO "dataset.txt"
+       SELECT DATASET ASSIGN TO "dataset.txt"
            ORGANIZATION IS LINE SEQUENTIAL.
-       SELECT NOMBRES ASSIGN TO 'nombres.txt'
-           ORGANIZATION IS LINE SEQUENTIAL.
-       SELECT ELEMENTOS ASSIGN TO 'elementos.txt'
-           ORGANIZATION IS LINE SEQUENTIAL.
+       SELECT RESULTADO ASSIGN TO 'resultado.txt'
+           ORGANIZATION IS LINE SEQUENTIAL. 
 
        DATA DIVISION.
        
@@ -18,19 +15,10 @@
       * FD SECTION
       ****************************************************************
        FILE SECTION.
-       FD  NOMBRES.
-           01  NOMBRES-REC         PIC X(50).
-           
-       FD  ELEMENTOS.
-           01  ELEMENTOS-REC       PIC X(50).
-           
-      * FD  DATOS              
-      *     RECORDING MODE IS F
-      *     RECORD CONTAINS 101 CHARACTERS 
-      *     DATA RECORD IS FD-REC-DATOS.
-      *     01  FD-REC-DATOS            PIC X(101).
-       FD  DATOS.  
-           01  FD-REC-DATOS            PIC X(101).
+       FD  RESULTADO.
+           01  RESULTADO-REC       PIC X(200).
+       FD  DATASET.  
+           01  FD-REC-DATASET      PIC X(101).
        
       ****************************************************************
       * WS SECTION
@@ -53,15 +41,7 @@
            05  FILLER4             PIC X(01) VALUE ' '.
            05  COSTO               PIC 9(10).
            05  FILLER5             PIC X(01) VALUE '|'.
-
-       01  PRODUCTO OCCURS 100 TIMES.
-           05  ID-PRODUCTO         PIC X(03).    
-           05  NOMBRE-PRODUCTO     PIC X(30). 
-           05  PRECIO              PIC 9(10).
-
-       01  CLIENTE OCCURS 100 TIMES.
-           05  ID-CLIENTE          PIC 9(03).
-           05  NOMBRE-CLIENTE      PIC X(50).
+       
        
        PROCEDURE DIVISION.
        PERFORM LEER-NOMBRES
@@ -148,3 +128,19 @@
            END-PERFORM
        CLOSE DATOS.
        
+       LEER-DATOS.
+       OPEN INPUT DATASET
+           PERFORM UNTIL EOF = 1
+               READ DATASET 
+                   AT END
+                       MOVE 1 TO EOF
+                   NOT AT END
+                        
+               END-READ
+               IF I > 100
+                   MOVE 1 TO EOF
+               END-IF
+           END-PERFORM           
+       CLOSE NOMBRES
+       MOVE 0 TO EOF
+       MOVE 1 TO I.
