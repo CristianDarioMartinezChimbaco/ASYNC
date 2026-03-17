@@ -1,0 +1,100 @@
+048 Tatiana Molina                                     021 Sardinas en lata 150g          0000000163|
+095 Fredy Bermudez                                     092 Lapicero negro                 0000005886|
+014 Daniela Cruz                                       088 Regleta electrica              0000008933|
+064 Melissa Ospina                                     043 Pollo entero 1kg               0000004002|
+061 Guillermo Parra                                    028 Mayonesa 400g                  0000001088|
+078 Karina Amaya                                       030 Vinagre blanco 500ml           0000002182|
+044 Andrea Pineda                                      022 Frijol rojo 500g               0000002428|
+018 Natalia Romero                                     027 Salsa de tomate 400g           0000001297|
+055 Sebastian Quintero                                 041 Helado vainilla 1L             0000005267|
+016 Paula Herrera                                      090 Lapiz HB                       0000006866|
+010 Camila Vargas                                      012 Yogur natural 1L               0000006288|
+049 Nicolas Lara                                       076 Esponja cocina                 0000007209|
+098 Isabel Mendez                                      093 Marcador permanente            0000006573|
+068 Yolanda Tapia                                      038 Chocolatina barra 50g          0000009727|
+074 Gloria Pedraza                                     036 Agua con gas 1L                0000005242|
+029 Raul Escobar                                       023 Lentejas 500g                  0000001372|
+058 Paula Barragan                                     024 Garbanzo 500g                  0000008041|
+015 Fernando Ortiz                                     073 Toallas de papel               0000004376|
+012 Valentina Rojas                                    079 Alcohol 70% 500ml              0000006399|
+016 Paula Herrera                                      074 Bolsa basura grande            0000009318|
+007 Pedro Torres                                       095 Pegante blanco                 0000004395|
+005 Luis Hernandez                                     052 Manzana roja 1kg               0000000860|
+017 Jorge Mendoza                                      024 Garbanzo 500g                  0000008041|
+079 Leonardo Patiño                                   073 Toallas de papel               0000004376|
+065 Samuel Ariza                                       096 Tijeras escolares              0000009239|
+063 Henry Valdez                                       075 Bolsa basura pequeña          0000009308|
+009 Diego Morales                                      013 Yogur fresa 1L                 0000003647|
+052 Marcela Pedraza                                    007 Pan tajado integral            0000003352|
+006 Sofia Ramirez                                      020 Atun en lata 170g              0000006069|
+046 Angela Duarte                                      081 Velas paquete                  0000006878|
+057 Mauricio Franco                                    075 Bolsa basura pequeña          0000009308|
+005 Luis Hernandez                                     015 Avena en hojuelas 500g         0000009522|
+099 Jonathan Navas                                     020 Atun en lata 170g              0000006069|
+088 Viviana Buitrago                                   012 Yogur natural 1L               0000006288|
+099 Jonathan Navas                                     005 Leche entera 1L                0000009116|
+087 Ulises Sandoval                                    007 Pan tajado integral            0000003352|
+001 Juan Perez                                         092 Lapicero negro                 0000005886|
+059 Cristian Bonilla                                   018 Galletas dulces 300g           0000007172|
+016 Paula Herrera                                      039 Chicle paquete                 0000002925|
+091 Yahir Camacho                                      081 Velas paquete                  0000006878|
+035 Alberto Campos                                     055 Zanahoria 500g                 0000008902|
+057 Mauricio Franco                                    045 Salchichas paquete             0000002833|
+068 Yolanda Tapia                                      009 Huevos docena                  0000002777|
+053 Rodrigo Mejia                                      075 Bolsa basura pequeña          0000009308|
+030 Claudia Fuentes                                    099 Resaltador verde               0000006842|
+057 Mauricio Franco                                    087 Extension electrica            0000002289|
+074 Gloria Pedraza                                     062 Suavizante ropa 1L             0000009706|
+003 Carlos Rodriguez                                   074 Bolsa basura grande            0000009318|
+083 Pablo Cepeda                                       092 Lapicero negro                 0000005886|
+087 Ulises Sandoval                                    083 Encendedor                     0000004401|
+097 Harold Aguirre                                     074 Bolsa basura grande            0000009318|
+090 Ximena Cardenas                                    098 Resaltador amarillo            0000008147|
+066 Vanessa Rangel                                     049 Cebolla cabezona 1kg           0000000697|
+016 Paula Herrera                                      083 Encendedor                     0000004401|
+088 Viviana Buitrago                                   007 Pan tajado integral            0000003352|
+064 Melissa Ospina                                     024 Garbanzo 500g                  0000008041|
+062 Cindy Alvarado                                     022 Frijol rojo 500g               0000002428|
+070 Beatriz Solano                                     031 Jugo de naranja 1L             0000005129|
+032 Monica Bravo                                       023 Lentejas 500g                  0000001372|
+007 Pedro Torres                                       063 Blanqueador 1L                 0000009022|
+022 Adriana Delgado                                    065 Jabon liquido manos            0000002666|
+051 Daniel Rios                                        097 Regla plastica                 0000003984|
+028 Veronica Salas                                     054 Naranja 1kg                    0000006632|
+071 Cesar Pardo                                        011 Queso campesino 500g           0000004773|
+047 Ivan Serrano                                       059 Coliflor unidad                0000004577|
+094 Elkin Garzon                                       045 Salchichas paquete             0000002833|
+033 Hector Lozano                                      084 Pilas AA pack                  0000008800|
+043 David Carrillo                                     001 Arroz blanco 1kg               0000008401|
+034 Liliana Prieto                                     059 Coliflor unidad                0000004577|
+083 Pablo Cepeda                                       023 Lentejas 500g                  0000001372|
+067 Victor Hurtado                                     048 Tomate fresco 1kg              0000009190|
+048 Tatiana Molina                                     030 Vinagre blanco 500ml           0000002182|
+071 Cesar Pardo                                        018 Galletas dulces 300g           0000007172|
+062 Cindy Alvarado                                     004 Aceite vegetal 1L              0000007984|
+041 Martin Salazar                                     069 Cepillo dental                 0000005125|
+067 Victor Hurtado                                     063 Blanqueador 1L                 0000009022|
+034 Liliana Prieto                                     018 Galletas dulces 300g           0000007172|
+060 Karen Jimenez                                      062 Suavizante ropa 1L             0000009706|
+073 Fabian Gaitan                                      032 Jugo de mango 1L               0000008391|
+074 Gloria Pedraza                                     020 Atun en lata 170g              0000006069|
+092 Zulema Andrade                                     068 Crema dental 100ml             0000007602|
+065 Samuel Ariza                                       025 Pasta espagueti 500g           0000001566|
+053 Rodrigo Mejia                                      008 Pan tajado blanco              0000007682|
+026 Diana Paredes                                      087 Extension electrica            0000002289|
+068 Yolanda Tapia                                      009 Huevos docena                  0000002777|
+011 Andres Castillo                                    036 Agua con gas 1L                0000005242|
+057 Mauricio Franco                                    059 Coliflor unidad                0000004577|
+066 Vanessa Rangel                                     028 Mayonesa 400g                  0000001088|
+077 Jairo Vargas                                       028 Mayonesa 400g                  0000001088|
+032 Monica Bravo                                       018 Galletas dulces 300g           0000007172|
+098 Isabel Mendez                                      001 Arroz blanco 1kg               0000008401|
+082 Olga Cifuentes                                     033 Gaseosa cola 1.5L              0000006126|
+018 Natalia Romero                                     043 Pollo entero 1kg               0000004002|
+095 Fredy Bermudez                                     091 Lapicero azul                  0000009564|
+076 Ingrid Forero                                      069 Cepillo dental                 0000005125|
+012 Valentina Rojas                                    068 Crema dental 100ml             0000007602|
+038 Lorena Vargas                                      077 Guantes limpieza               0000002842|
+094 Elkin Garzon                                       091 Lapicero azul                  0000009564|
+086 Teresa Cardona                                     020 Atun en lata 170g              0000006069|
+079 Leonardo Patiño                                   054 Naranja 1kg                    0000006632|

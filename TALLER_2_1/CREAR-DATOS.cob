@@ -47,7 +47,7 @@
            05  FILLER1             PIC X(01) VALUE ' '. 
            05  CLIENTE-NOMBRE      PIC X(50).  
            05  FILLER2             PIC X(01) VALUE ' '.
-           05  PRODUCTO-ID         PIC X(03).
+           05  PRODUCTO-ID         PIC 9(03).
            05  FILLER3             PIC X(01) VALUE ' '.
            05  PRODUCTO-NOMBRE     PIC X(30).
            05  FILLER4             PIC X(01) VALUE ' '.
@@ -127,7 +127,7 @@
        
        ESCRIBIR-DATOS.
        OPEN OUTPUT DATOS
-           PERFORM 1000000 TIMES
+           PERFORM 1000 TIMES
                MOVE 100 TO MULTIPLICADOR        
                PERFORM GENERADOR-ALEATORIOS
                IF NUM-ALE-INT > 100
