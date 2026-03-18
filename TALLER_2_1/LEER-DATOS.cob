@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. CREAR-DATOS.
+       PROGRAM-ID. LEER-DATOS.
 
        ENVIRONMENT DIVISION. 
        INPUT-OUTPUT SECTION.
@@ -50,8 +50,7 @@
            05  ID-CLIENTE          PIC 9(03) VALUE ZEROS.
            05  FILLER              PIC X(01) VALUE ' '.
            05  NOMBRE-CLIENTE      PIC X(50).
-       
-       
+              
        PROCEDURE DIVISION.
        PERFORM LEER-DATOS
        PERFORM IMPRIMIR-CLIENTES.
@@ -90,8 +89,6 @@
                MOVE CANTIDAD (I) TO NUMERO
            END-IF        
        MOVE 1 TO I.  
-
-       
 
        IMPRIMIR-CLIENTES.
        PERFORM 1000 TIMES 

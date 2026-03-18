@@ -127,7 +127,7 @@
        
        ESCRIBIR-DATOS.
        OPEN OUTPUT DATOS
-           PERFORM 1000 TIMES
+           PERFORM 1000000 TIMES
                MOVE 100 TO MULTIPLICADOR        
                PERFORM GENERADOR-ALEATORIOS
                IF NUM-ALE-INT > 100
