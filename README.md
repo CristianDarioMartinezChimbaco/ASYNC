@@ -86,15 +86,17 @@ Para ejecutar este programa funcionaria en linux ya que el programa en c++ ejecu
 ```bash
 g++ MAIN.cpp -o MAIN
 ./MAIN
-g++ MAIN.cpp -o MAIN_2
+
+g++ MAIN_2.cpp -o MAIN_2
 ./MAIN_2
 ```
 #### Windows
 ```bash
-g++ MAIN.cpp -o MAIN.exe
-MAIN.exe
-g++ MAIN.cpp -o MAIN_2.exe
-MAIN_2.exe
+g++ MAIN_W.cpp -o MAIN_W.exe
+MAIN_W.exe
+
+g++ MAIN_W_2.cpp -o MAIN_W_2.exe
+MAIN_W_2.exe
 ```
 #### Resultado
 Haciendo el proceso con hilos:
