@@ -47,9 +47,6 @@ Calcular la suma de cada sublista en tareas independientes.
 Mostrar la suma total al final.
 
 ### Solución: 
-#### Requisitos para compilar y ejecutar este programa:
-- [GnuCobol](https://gnucobol.sourceforge.io/) 
-- C ++
 Este desarrollo se realizo en LISP bajo el nombre ASYNC.lisp para ejecutarlo debe hacer uso de ***Common-lisp***, con el siguiente comando interpreta y ejecuta el programa (*recuerde estar en el directorio del mismo programa TALLER_1*):
 #### Linux y Windows
 ```bash
