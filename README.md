@@ -48,7 +48,7 @@ Partir la lista en 4 sublistas, una de pares entre 0 y 4999 y la otra entre 5000
 Calcular la suma de cada sublista en tareas independientes.
 Mostrar la suma total al final.
 
-### Solución: 
+## Solución: 
 Este desarrollo se realizo en LISP bajo el nombre ASYNC.lisp para ejecutarlo debe hacer uso de ***Common-lisp***, con el siguiente comando interpreta y ejecuta el programa (*recuerde estar en el directorio del mismo programa TALLER_1*):
 #### Linux y Windows
 ```bash
@@ -91,11 +91,11 @@ Comparar los tiempos de ejecución entre:
 
 - Versión secuencial.
 - Versión paralela con Fork/Join.
-### Solución:
+## Solución:
 Debido a que COBOL no tiene hilos como tal, se uso tambien c++, c++ se encarga de ejecutar usando hilos los programas COBOL.
 Para ejecutar este programa funcionaria en linux ya que el programa en c++ ejecuta comando directo en la terminal linux, de igual manera validar en macOS, en el mismo directirio usar para compilar y ejecutar:
 
-#### Linux
+### Linux
 ```bash
 g++ MAIN.cpp -o MAIN
 ./MAIN
@@ -103,7 +103,7 @@ g++ MAIN.cpp -o MAIN
 g++ MAIN_2.cpp -o MAIN_2
 ./MAIN_2
 ```
-#### Windows
+### Windows
 ```bash
 g++ MAIN_W.cpp -o MAIN_W.exe
 MAIN_W.exe
@@ -111,7 +111,7 @@ MAIN_W.exe
 g++ MAIN_W_2.cpp -o MAIN_W_2.exe
 MAIN_W_2.exe
 ```
-#### Resultado
+### Resultado
 Haciendo el proceso con hilos:
 
 ![image1](images/image3.png)
@@ -137,4 +137,110 @@ Haciendo el proceso de manera secuencial se obtubo:
 - Ordenación rápida
 - Timsort
 - Merge Sort (Ordenar por fusión)
+
+---
+
+## 3. Análisis del paralelismo usando el modelo Work–Span
+Contexto
+En computación paralela, una forma común de analizar el rendimiento
+potencial de un algoritmo es representarlo mediante un grafo acíclico
+dirigido (DAG), donde:
+- cada nodo representa una tarea
+- cada arista representa una dependencia entre tareas
+
+### Problema propuesto
+Considere el siguiente conjunto de tareas con sus tiempos de ejecución:
+
+|Tarea      |Tiempo de ejecucion |
+|-----------|--------------------|
+|a          |2 ms                |  
+|b          |4 ms                |
+|c          |4 ms                |    
+|d          |3 ms                |  
+
+Dependencias entre tareas:
+La tarea A debe ejecutarse primero.
+Las tareas B y C dependen de A.
+La tarea D depende de B y C.
+
+### Actividades a desarrollar
+Se deberá investigar y calcular lo
+siguiente:
+#### 1. Construcción del DAG
+Represente gráficamente el grafo
+de dependencias del algoritmo.
+Explique:
+qué representa cada nodo
+qué representan las aristas.
+#### 2. Cálculo del trabajo total
+Calcule el trabajo total del algoritmo 𝑇1.
+Este corresponde al tiempo total si el algoritmo se ejecuta en un solo procesador.
+#### 3. Determinación de la ruta crítica
+Determine:
+la ruta crítica del DAG
+el valor de 𝑇∞.
+Explique por qué esta ruta determina el límite mínimo de ejecución del
+algoritmo.
+#### 4. Cálculo del paralelismo potencial
+Calcule el paralelismo potencial del algoritmo:
+
+Π = 𝑇1 / 𝑇∞
+
+Interprete qué significa este valor para el algoritmo.
+#### 5. Análisis con múltiples procesadores
+Considere un sistema con 2 procesadores.
+Utilizando el modelo teórico de paralelismo, analice el tiempo mínimo
+posible de ejecución
+Explique:
+	- cuál de los dos términos domina
+	-por qué ocurre.
+#### 6. Planificación de ejecución
+Diseñe una posible planificación de las tareas en dos procesadores.
+Construya una línea de tiempo que muestre:
+	- qué tareas ejecuta cada procesador
+	- en qué momento.
+#### 7. Cálculo del speedup
+Calcule el speedup obtenido con dos procesadores:
+
+𝑆𝑃 = 𝑇1 / 𝑇𝑃
+
+Analice si el resultado coincide con el paralelismo potencial calculado
+anteriormente.
+Responder las siguientes preguntas:
+- ¿Agregar más procesadores siempre mejora el rendimiento?
+- ¿Qué factor del algoritmo limita el paralelismo?
+- ¿Cómo podría modificarse el algoritmo para aumentar el paralelismo?
+### Entregables esperados
+Se deberá entregar un informe corto que incluya:
+
+- representación del DAG
+- cálculos paso a paso
+- explicación conceptual de cada métrica
+- diagrama de planificación de tareas
+- reflexión final.
+
+---
+
+## 4. Simulación de tareas concurrentes con Futures
+### Contexto del problema
+Una aplicación debe realizar 3 tareas independientes:
+Descargar datos de usuarios
+Procesar información
+Consultar estado de un servicio externo
+Cada tarea tarda un tiempo diferente.
+### Objetivo
+Implementar estas tareas usando programación asíncrona (Futures) y:
+Ejecutarlas en paralelo
+No bloquear el programa
+Combinar resultados
+- Paso 1: Crear funciones async
+- Paso 2: Crear Futures (tareas)
+- Paso 3: Ejecutar en paralelo
+    - Opción A: Esperar todos (allOf)
+	- Opción B: Obtener el primero (anyOf)
+### Preguntas
+1. ¿Cuál tarea terminó primero y por qué?
+2. ¿Qué pasa si usas .result() en lugar de await?
+3. ¿Se ejecutaron realmente en paralelo? ¿Cómo lo evidencias?
+4. ¿Qué ventaja tiene gather frente a ejecución secuencial?
 
