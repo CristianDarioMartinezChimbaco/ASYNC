@@ -1,0 +1,14 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. BUCKET-SORT.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  WS-NUMEROS          OCCURS 15 TIMES.
+           05  WS-NUMERO           PIC 9(02) VALUE ZEROS.
+       
+       01  WS-BUKETS OCCURS 4 TIMES.
+           05  WS-BUKET    OCCURS 5 TIMES.
+               10  WS-BK-NUMERO    PIC 9(02) VALUE ZEROS.
+
+       PROCEDURE DIVISION.
+       

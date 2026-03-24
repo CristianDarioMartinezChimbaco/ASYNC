@@ -18,10 +18,12 @@
 ---
 
 ## Linux (Debian/Ubuntu)
-
-### GnuCOBOL
+Primero ejecutar:
 ```bash
 sudo apt update
+```
+### GnuCOBOL
+```bash
 sudo apt install gnucobol
 ```
 ### SBCL Common Lisp
@@ -51,7 +53,10 @@ Este desarrollo se realizo en LISP bajo el nombre ASYNC.lisp para ejecutarlo deb
 #### Linux y Windows
 ```bash
 sbcl --script ASYNC.lisp 
+
 sbcl --script NO_ASYNC.lisp 
+
+sbcl --script ASYNC_V2.lisp 
 ```
 En su defecto puede usar un [interprete Online](https://onecompiler.com/commonlisp/44fkwuf6k). 
 #### Resultado
@@ -62,6 +67,14 @@ Haciendo el proceso de manera secuencial se obtubo:
 Haciendo el proceso con hilos:
 
 ![image1](images/image2.png)
+
+![image1](images/grafo1.png)
+
+Ademas en esta otra forma, lo que se hizo fue ejecutar un proceso de crear lista B junto con los de sumar pares e  impares de la lista A, se obtubo lo siguiente:
+
+![image1](images/image5.png)
+
+![image1](images/grafo2.png)
 
 ---
 
