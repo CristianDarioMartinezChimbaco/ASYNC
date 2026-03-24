@@ -230,9 +230,7 @@ Consultar estado de un servicio externo
 Cada tarea tarda un tiempo diferente.
 ### Objetivo
 Implementar estas tareas usando programación asíncrona (Futures) y:
-Ejecutarlas en paralelo
-No bloquear el programa
-Combinar resultados
+Ejecutarlas en paralelo, No bloquear el programa y Combinar resultados
 - Paso 1: Crear funciones async
 - Paso 2: Crear Futures (tareas)
 - Paso 3: Ejecutar en paralelo
